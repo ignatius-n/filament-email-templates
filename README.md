@@ -44,6 +44,24 @@ php artisan migrate
 
 ---
 
+## 🔄 Upgrading
+
+### Upgrading from v1.x to v2.0
+
+1. **Update the package version**:
+   Run the following command in your Laravel application:
+   ```bash
+   composer require notebrainslab/filament-email-templates:^2.0
+   ```
+
+2. **Clear view and application cache**:
+   ```bash
+   php artisan view:clear
+   php artisan cache:clear
+   ```
+
+---
+
 ## ⚙️ Configuration
 
 ### 1. Register the Plugin
